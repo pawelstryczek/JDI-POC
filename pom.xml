@@ -21,6 +21,7 @@
 		<selenium.java.version>3.141.59</selenium.java.version>
 	</properties>
 	<dependencies>
+		<!-- Selenium -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -38,6 +39,7 @@
 			<artifactId>allure-testng</artifactId>
 			<version>${allure.testng}</version>
 		</dependency>
+		<!-- TestNG -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
